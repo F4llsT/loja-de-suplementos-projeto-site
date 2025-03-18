@@ -1,2 +1,2 @@
-# vl-suplementos.html
-Um protótipo de site para uma nova loja de suplementação. 
+# vl-suplementos
+Um protótipo de site para uma nova loja de suplementação da minha família.
