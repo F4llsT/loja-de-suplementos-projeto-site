@@ -3,3 +3,9 @@ body {
     background-color: (0, 0, 0, 0.8);
     font-family: "Oswald", sans-serif;
 }
+
+.barra-de-pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
