@@ -53,3 +53,24 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.barra-de-pesquisa button:hover {
+    background-color: var(--cor-destaque);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--cor-destaque)
+}
+
