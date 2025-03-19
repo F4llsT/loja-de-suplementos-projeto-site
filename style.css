@@ -40,9 +40,11 @@ header {
 }
 
 .barra-de-pesquisa input {
-    padding: 8pc;
+    padding: 10px;
+    padding-right: 150px;
     border: 1px solid var(--cor-secundaria);
     border-radius: 5px;
+    
 }
 
 .barra-de-pesquisa button {
@@ -74,3 +76,38 @@ nav a:hover {
     color: var(--cor-destaque)
 }
 
+.principal {
+    text-align: center;
+    padding: 50px;
+}
+
+.slogan {
+    font-size: 2rem;
+    color: var(--cor-primaria)    
+}
+
+.botao-produtos {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;    
+}
+
+.botao-produtos:hover {
+    background-color: var(--cor-destaque);
+    text-align: center;
+}
+
+details summary {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+details p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
