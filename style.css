@@ -1,11 +1,8 @@
-body {
-    background-size: cover;
-    background-color: (0, 0, 0, 0.8);
-    font-family: "Oswald", sans-serif;
-}
-
-.barra-de-pesquisa {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+:root {
+    --cor-primaria: #2E7D32; /* Verde escuro */
+    --cor-secundaria: #66BB6A; /* Verde médio */
+    --cor-destaque: #A5D6A7; /* Verde claro */
+    --cor-fundo: #F1F8E9; /* Verde muito claro */
+    --cor-texto: #ffffff; /* Branco */
+    --cor-texto-secundario: #333333; /* Cinza escuro */
 }
