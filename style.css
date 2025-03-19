@@ -1,3 +1,4 @@
+/* Aprendendo sobre o root */
 :root {
     --cor-primaria: #2E7D32; /* Verde escuro */
     --cor-secundaria: #66BB6A; /* Verde médio */
@@ -6,3 +7,26 @@
     --cor-texto: #ffffff; /* Branco */
     --cor-texto-secundario: #333333; /* Cinza escuro */
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-secundario);
+}
+
+/* Estilizando o cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    padding: 20px;
+    color: var(--cor-texto)
+}
+
