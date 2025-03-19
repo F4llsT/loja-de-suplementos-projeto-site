@@ -30,3 +30,26 @@ header {
     color: var(--cor-texto)
 }
 
+.logo {
+    font-size: 1.8rem;
+}
+
+.barra-de-pesquisa {
+    display: flex;
+    gap: 10px;
+}
+
+.barra-de-pesquisa input {
+    padding: 8pc;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 5px;
+}
+
+.barra-de-pesquisa button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
