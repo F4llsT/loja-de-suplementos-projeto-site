@@ -8,19 +8,38 @@
     <title>VL suplementos</title>
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+ 
   </head>
   <body>
     <header>
-      <h1 class="logo"><em>VL</em> <span>Suplementos<span></h1>
+      <h1 class="logo"><em>VL</em> <span>SUPLEMENTOS<span></h1>
       <div class="barra-de-pesquisa">
           <input type text="text" id="pesquisa" placeholder="Buscar produto...">
       <button>Pesquisar</button> 
     </div>
       <nav>
         <ul>
-          <li><a href=#produtos>Produtos</a></li>
-          <li><a href=#carrinho>Carrinho</a></li>
-          <li><a href=#sobre>Sobre</a></li>
+          <li>
+            <i class="coracao"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-pulse-fill" viewBox="0 0 16 16">
+            <path d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9z"/>
+            <path d="M.88 8C-2.427 1.68 4.41-2 7.823 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8z"/>
+          </svg></i><br><a href=#produtos>Produtos</a> </li>
+          <br>
+          
+          <li> 
+            <i class="carrinho">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg> <br><a href=#carrinho>Carrinho</a> 
+            </i>
+        </li>
+          <br>
+          <li>
+            <i class="indicacao">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-lg" viewBox="0 0 16 16">
+            <path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0"/>
+          </svg><br><a href=#sobre>Sobre</a></li>
+          </i>
         </ul>
       </nav>
     </header>
@@ -34,17 +53,14 @@
     </section>
     <br>
 
-    <section id="sobre">
-        <details> 
-          <summary>QUEM SOMOS?</summary>
-          <p>Somos uma empresa focada em fornecer suplementos de qualidade para a sua saúde e desempenho!</p>
-        </details>
-    </section>
-    
     <footer id="final">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
+      </svg>
       <p>copyright 2025</p>
     </footer>
-
+    
+    
     
 
       <script src="script.js"></script>

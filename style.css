@@ -17,8 +17,8 @@
 }
 
 body {
-    background-color: var(--cor-texto);
-    color: var(--cor-texto-secundario);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-secundario)
 }
 
 /* Estilizando o cabeçalho */
@@ -32,16 +32,22 @@ header {
 }
 
 .logo em {
-    font-size: 3.0rem;
-    color: rgb(0, 255, 0)
+    font-size: 4.0rem;
+    color: rgb(0, 255, 0);
+    font-style: italic;
+    text-shadow: 0 0 5px rgb(35, 151, 0), 0 0 5px rgb(136, 255, 136), 0 0 5px rgb(44, 156, 0);
 }
 
 
 
 .logo span {
-    font-size: 2.0rem;
+    font-size: 1.7rem;
     font-weight: normal;
-    color: rgb(21, 179, 0);
+    padding-left: 6px;
+    font-family:'Oswald', sans-serif;
+    color: rgb(30, 255, 0);
+    text-shadow: #00ff0d 0px 0px 10px;
+    
 }
 
 
@@ -55,17 +61,18 @@ header {
 
 .barra-de-pesquisa input {
     padding: 10px;
-    padding-right: 150px;
+    position: relative;
+    padding-right: 100px;
     border: 1px solid var(--cor-secundaria);
-    border-radius: 5px;
+    border-radius: 7px;
     
 }
 
 .barra-de-pesquisa button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
-    padding: 8px 12px;
-    border: none;
+    padding: 7px 20px;
+
     border-radius: 5px;
     cursor: pointer;
 }
@@ -97,23 +104,21 @@ nav a:hover {
 .principal {
     text-align: center;
     padding: 30px;
-    background-color: rgb(139, 255, 148);
+    background-color: 
 
 }
 
 .principal p {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
 }
 
 .slogan {
-    font-size: 2.5rem;
-    color: rgba(0, 0, 0, 0);   
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
-    font-style: italic;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 1px 4px 1px  rgb(94, 255, 0),  -2px -2px 1px rgb(255, 255, 255);
-    
+    color: #fff; 
+    text-shadow: 0 0 10px rgb(0, 97, 40), 0 0 20px rgb(0, 255, 0), 0 0 30px rgb(0, 255, 115);
+    height: 50px;
+    position: relative;
+    font-size: 30px;
 }
 
 .botao-produtos {
@@ -131,19 +136,8 @@ nav a:hover {
     color: rgb(37, 63, 37)
 }
 
-
-details summary {
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-
-details p {
-    margin-top: 10px;
-    font-size: 1rem;
-}
-
 #final {
-    background-color: #009107;
+    background-color: #164d19;
     color: #ffffff;    
     text-align: center;
     font-size: 15px;
@@ -151,6 +145,18 @@ details p {
     bottom: 0;
     width: 100%; 
     padding: 10px 0;
+}
+
+.coracao {
+    margin-left: 19px;
+}
+
+.carrinho {
+    margin-left: 19px;
+}
+
+.indicacao {
+    margin-left: 12px;
 }
 
 
