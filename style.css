@@ -98,6 +98,12 @@ nav a:hover {
     text-align: center;
     padding: 30px;
     background-color: rgb(139, 255, 148);
+
+}
+
+.principal p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
 }
 
 .slogan {
@@ -121,9 +127,9 @@ nav a:hover {
 }
 
 .botao-produtos:hover {
-    background-color: var(--cor-destaque);
-    text-align: center;
+    color: rgb(37, 63, 37)
 }
+
 
 details summary {
     font-size: 1.2rem;
@@ -134,3 +140,4 @@ details p {
     margin-top: 10px;
     font-size: 1rem;
 }
+
